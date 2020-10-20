@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## 965640's Emerging Technology Submission (Updated w/ feedback in mind)
 
 You can use the [editor on GitHub](https://github.com/ethanjmuir/965640-Emerging-Tech/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
