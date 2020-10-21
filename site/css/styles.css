@@ -4,6 +4,9 @@ body {
     /* font-family: 'Roboto Mono', monospace; */
     font-family: 'Josefin Sans', sans-serif;
     color: black;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
 }
 
 /* Titles and Headings */
@@ -32,8 +35,17 @@ h1.title {
 h1.author {
     color: #68e3d1;
     font-size: 5em;
-    margin-bottom: 300px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.profile {
+    width: 200px;
+}
+
+span {
+    display: block;
 }
 
 h3.subtitle {
@@ -124,7 +136,7 @@ a {
     }
     
     h1.author {
-        margin-bottom: 500px;
+        
     }
 
     h3.subtitle {
