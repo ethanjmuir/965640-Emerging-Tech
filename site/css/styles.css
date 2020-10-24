@@ -1,195 +1,331 @@
+
+/* --------- Main Body Start --------- */
+
 body {
     background-color: #25283d;
-    margin: 25px;
-    /* font-family: 'Roboto Mono', monospace; */
+    color: #fff;
     font-family: 'Josefin Sans', sans-serif;
-    color: black;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-}
-
-/* Titles and Headings */
-.bi .bi-lock-fill {
+    margin: 0px;
 
 }
 
-h1 {
-    color: #000;
-    font-weight: 700;
+/* --------- Main Body End --------- */
+
+
+/* --------- Page HEADER Start --------- */
+
+.page-header {
+    padding: 15px;
 }
 
-h2 {
-    color: #000;
-    font-weight: 500;
-}
-
-h3 {
-    color: #000;
-    font-weight: 300;
-}
-
-h1.title {
+#main-heading {
     color: #f0995b;
+    font-size: 10em;
     font-weight: 700;
     text-align: center;
-    font-size: 15em;
+    margin: 150px 25px 25px 25px;
 }
 
-h1.author {
+#sub-main-heading {
     color: #68e3d1;
     font-size: 5em;
+    font-weight: 300;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 50px 25px 500px 25px;
+
 }
 
-h1.heading {
-    margin-top: 250px;
-    margin-bottom: 500px;
+/* --------- Page HEADER End --------- */
+
+
+/* --------- By-Line Start --------- */
+
+.by-line {
+    margin: 150px auto 150px auto;
+    text-align: center;
 }
 
-img {
-    position: relative;
+.by-line > span > h1 {
+    color: #68e3d1;
+    text-align: center;
+    font-size: 5em;
+
+}
+
+.by-line > span > img {
     width: 315px;
     margin: 25px;
     box-sizing: border-box;
 }
 
-img.profile {
+/* --------- By-Line End --------- */
+
+
+/* --------- Main-Page Content Start --------- */
+
+.main-page {
+    width: 100%;
+    margin: 100px 0 100px 0px;
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+/* --------- Container Content End --------- */
+
+
+/* --------- 12 Column Grid Framework Start --------- */
+
+
+
+/* --------- 12 Column Grid Framework Start --------- */
+
+
+/* --------- Box Settings Start --------- */
+
+#sub-heading-box {
     box-sizing: border-box;
-    width: 250px;
+    background-color: #68e3d1;
+    color: #25283d;
+    margin: 50px 25px 50px 25px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px #000;
+    padding: 50px;
 }
 
-h3.subtitle {
-    color: #FFF;
-    font-weight: 300;
-    text-align: center;
-    font-style: italic;
+#sub-heading-box > h1 {
+    font-size: 5em;
 }
 
-/* Main Body */
-div.box {
-    position: relative;
+#box {
+    box-sizing: border-box;
     background-color: #f0995b;
     color: #25283d;
-    width: 750px;
-    margin: 50px;
+    margin: 50px 25px 50px 25px;
     padding: 50px;
-    border-radius: 15px;
-    box-shadow: 2px 2px 15px #000; 
-    
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px #000;
 }
 
-div.sub-box {
-    max-width: fit-content;
-    background-color: #25283d;
-    color: #f0995b;
-    padding: 15px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    border-radius: 15px;
+#box > h1 {
+    font-size: 3em;
 }
 
-div.left {
-    float: left;
-}
-
-div.right {
-    float: right;
-}
-
-div.heading {
-    width: 100%;
-    position: relative;
-}
-
-li {
-    font-weight: 300;
+#box > ul {
     font-size: 1.5em;
 }
 
-div.box.left > div.container > img {
-    width: 200px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+#img_box {
+    box-sizing: border-box;
+    margin: 50px;
+    border-radius: 15px;
+    padding: 0;
 }
 
-div.container {
-    margin-left: 0;
-    margin-right: 0;
+#img_box > img {
+    width: 100%;
+    border-radius: 15px;
 }
 
-div.page-end {
+#sub-box {
+    background-color: #25283d;
+    color: #f0995b;
+    font-style: italic;
+    padding: 25px;
+    margin: 25px 0 50px 0;
+    border-radius: 15px;
+}
+
+/* --------- Box Settings End --------- */
+
+
+/* --------- Page FOOTER Start --------- */
+
+div.page-footer {
     background-color: #68e3d1;
     width: 100%;
+    font-size: 2em;
+    text-align: center;
     margin-left: 0;
     margin-right: 0;
     margin-top: 50px;
     margin-bottom: 0;
     padding: 25px;
     padding-bottom: 150px;
-    text-align: center;
-
+    clear: both;
 }
 
-a {
+div.page-footer > #title {
     color: #25283d;
-    font-weight: 500;
-    font-size: 1.5em;
-
+    font-size: 5em;
+    font-weight: 700;
+    margin: 100px auto 100px auto;
 }
 
-/* Large Devices */
+div.page-footer > ul {
+    list-style-type: none;
+}
+
+div.page-footer > ul > li > a {
+    color: #25283d;
+}
+
+div.page-footer > ul > li > a:hover {
+    color: #f0995b;
+}
+
+/* --------- Page FOOTER End --------- */
+
+
+/* --------- MEDIA QUERIES --------- */
+
+
+/* --------- Large Devices Start --------- */
+
 @media (min-width: 1200px) {
-    h1.title {
-        font-size: 10em;
-        margin-top: 50px;
-        margin-bottom: 50px;
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, 
+    .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10,
+    .col-lg-11, .col-lg-12 {
+        float: left;
     }
-    
-    img.profile {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 500px;
-
+    .col-lg-1 {
+        width: 8.33%;
     }
-
-    h3.subtitle {
-        margin-bottom: 500px;
+    .col-lg-2 {
+        width: 16.66%;
     }
-
-    div.box {
-        margin-bottom: 250px;
+    .col-lg-3 {
+        width: 25%;
     }
-
+    .col-lg-4 {
+        width: 33%;
+    }
+    .col-lg-5 {
+        width: 41.66%;
+    }
+    .col-lg-6 {
+        width: 50%;
+    }
+    .col-lg-7 {
+        width: 58.33%;
+    }
+    .col-lg-8 {
+        width: 66.66%;
+    }
+    .col-lg-9 {
+        width: 74.99%;
+    }
+    .col-lg-10 {
+        width: 83.33%;
+    }
+    .col-lg-11 {
+        width: 91.66%;
+    }
+    .col-lg-12 {
+        width: 100%;
+    }
 }
+
+/* --------- Large Devices End --------- */
+
+
+/* --------- Medium Devices Start --------- */
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    h1.title {
-        font-size: 7em;
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, 
+    .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10,
+    .col-md-11, .col-md-12 {
+        float: left;
+    }
+    .col-md-1 {
+        width: 8.33%;
+    }
+    .col-md-2 {
+        width: 16.66%;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+    .col-md-4 {
+        width: 33%;
+    }
+    .col-md-5 {
+        width: 41.66%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-7 {
+        width: 58.33%;
+    }
+    .col-md-8 {
+        width: 66.66%;
+    }
+    .col-md-9 {
+        width: 74.99%;
+    }
+    .col-md-10 {
+        width: 83.33%;
+    }
+    .col-md-11 {
+        width: 91.66%;
+    }
+    .col-md-12 {
+        width: 100%;
     }
 }
 
-/* Medium and Small Devices */
-@media (max-width: 991px){
-    h1.title {
-        font-size: 5em;
+/* --------- Medium Devices End --------- */
+
+
+/* --------- Small Devices Start --------- */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, 
+    .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10,
+    .col-sm-11, .col-sm-12 {
+        float: left;
     }
-    h1.author {
-        font-size: 2em;
+    .col-sm-1 {
+        width: 8.33%;
     }
-    div.box {
-        width: fit-content;
+    .col-sm-2 {
+        width: 16.66%;
     }
-    div.left {
-        float: none;
+    .col-sm-3 {
+        width: 25%;
     }
-    div.right {
-        float: none;
+    .col-sm-4 {
+        width: 33%;
     }
-    div.container {
-        margin-top: 250px;
+    .col-sm-5 {
+        width: 41.66%;
+    }
+    .col-sm-6 {
+        width: 50%;
+    }
+    .col-sm-7 {
+        width: 58.33%;
+    }
+    .col-sm-8 {
+        width: 66.66%;
+    }
+    .col-sm-9 {
+        width: 74.99%;
+    }
+    .col-sm-10 {
+        width: 83.33%;
+    }
+    .col-sm-11 {
+        width: 91.66%;
+    }
+    .col-sm-12 {
+        width: 100%;
     }
 }
+
+/* --------- Small Devices End --------- */
